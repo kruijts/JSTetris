@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefankruijt/JSTetris.git"
+    "url": "git+https://github.com/sophiekruijt/JSTetris.git"
   },
   "bugs": {
-    "url": "https://github.com/stefankruijt/JSTetris/issues"
+    "url": "https://github.com/sophiekruijt/JSTetris/issues"
   },
-  "homepage": "https://github.com/stefankruijt/JSTetris#readme",
+  "homepage": "https://github.com/sophiekruijt/JSTetris#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^7.0.0",
     "html-webpack-plugin": "^4.5.0",
