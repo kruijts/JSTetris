@@ -3,6 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const path = require('path')
 
 module.exports = {
+  mode: 'development',
   target: 'web',
   entry: './src/index.js',
   output: {
@@ -18,11 +19,12 @@ module.exports = {
     })
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    static: {
+      directory: path.join(__dirname, 'assets')
+    },
     compress: true,
     hot: true,
     port: 9000,
-    open: true,
-    watchContentBase: true
+    open: true
   }
 }
